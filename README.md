@@ -6,11 +6,11 @@
 </br>
    | 算法 | 操作系统 | 网络 |面向对象 |数据库 |Java |工具 |
    | :-----| ----: | :----: |:----: |:----: |:----: |:----: |
-   | [单元格](@first_link) | 单元格 | 单元格 |单元格 |单元格 |单元格 |单元格 |
+   | [算法](@first_link) | 单元格 | 单元格 |单元格 |单元格 |单元格 |单元格 |
 <div align="center"> <img src="https://user-images.githubusercontent.com/45312324/119980685-3576d000-bfef-11eb-928b-684d2be7b5a9.png" height="200" width="200"/> </div>
 
 
-### 1.算法[](#first_link)
+### [算法](#first_link)
 
 ### 1.算法
 
