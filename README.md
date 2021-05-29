@@ -26,6 +26,7 @@
 ## :bulb:  系统设计 
 
 ## :elephant: 中间件 
+- [redis]()
 
 ## :file_folder: 项目 
 
