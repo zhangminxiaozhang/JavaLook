@@ -26,7 +26,7 @@
 ## :bulb:  系统设计 
 
 ## :elephant: 中间件 
-- [redis]()
+- [redis](https://github.com/zhangminxiaozhang/JavaLook/blob/main/middleware/redis.md)
 
 ## :file_folder: 项目 
 
