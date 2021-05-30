@@ -18,11 +18,11 @@ Redis有5种基本的数据结构，分别是String、List、Set、Zset、Hash�
 
 7.>set count 10 #虽然说10是字符串，但是存的就是10数值
 8.>incr count
-	(integer) 11
+ (integer) 11
 9.>incrby count 5 #在当前基础上+5，但是范围大小介于有符号long的最大值和最小值之间，超过，redis就会报错
-	(integer) 16
+ (integer) 16
 10.>incrby count -5
-	(integer) 11
+ (integer) 11
 	
 11.>getrange name start end #获取key的name的value索引是[start,end]的子串，如果要到最后，可以用-1替代end
 12.>mset name1 java name2 python #同时设置一个或多个 key-value
@@ -52,9 +52,9 @@ Redis中的列表相当于LinkedList，当列表里面最后一个元素被弹�
 ```
 1.>rpush name java python golang #列表里面存储3个元素,右边进
 2.>llen name
-	(integer) 3
+ (integer) 3
 3.>lpop name #左边出,右进坐出[队列]
-	"java"
+  "java"
 4.>rpop name #右边出，右进右出[栈]
   "golang"
 5.>lindex name 1 #获取列表中索引是1的vaule值,时间复杂度是o(n)
@@ -83,19 +83,19 @@ Redis中的字典相当于HashMap，即数组+链表的二维结构。
 1.>hset name java "thind in java" #这里的java "thind in java"相当于hashmap的key和value
 2.>hset name python "python go"
 3.>hgetall name #这里出现的是entry，key和value间隔出现
-	1) "java"
-	2) "thind in java"
-	3) "python"
-	4) "python go"
+ 1) "java"
+ 2) "thind in java"
+ 3) "python"
+ 4) "python go"
 4.>hlen name
-	(integer) 2
+ (integer) 2
 5.>hget name java 
-	"thind in java"
+ "thind in java"
 6.>hset name java "java 40 days"
 
 7.>hset user zhang 20
 8.>hincrby user zhang 2
-	(integer) 22
+ (integer) 22
 9.>hdel user zhang
 ```
 
@@ -116,14 +116,14 @@ Redis中的集合相当于HashSet，由于Java中的HashSet相当于HashMap的va
 2.>sadd name java #重复，返回0
 3.>sadd name python go
 4.>smembers name #返回的顺序无序
-	1) "java"
-	2) "python"
-	3) "go"
+ 1) "java"
+ 2) "python"
+ 3) "go"
 5.>sismember name java #查询某个value是否存在，存在返回1
 6.>scard	name #获取name这个set的长度
-	(integer) 3
+ (integer) 3
 7.>spop books #随机弹出一个
-	"java"
+ "java"
 ```
 
 ​	<font size=4>**应用场景**</font>
