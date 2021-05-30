@@ -134,7 +134,7 @@ Redis中的集合相当于HashSet，由于Java中的HashSet相当于HashMap的va
 
 2. 好友共同关注
 
-微博中用户关注的人存在一个set结合中，然后很容易求sinter key1 key2，求出用户的共同关注。
+微博中用户关注的人存在一个set结合中，然后很容易求sinter key1 key2，求出用户共同关注。
 
 ### 五、Zset (有序列表）
 
