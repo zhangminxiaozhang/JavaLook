@@ -4,7 +4,7 @@ Redis有5种基本的数据结构，分别是String、List、Set、Zset、Hash�
 
 ### 一、String (字符串）
 
-​	<font size=4>**常见指令**</font>
+<font size=4>**常见指令**</font>
 
 ```
 1.>set name java
