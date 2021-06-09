@@ -13,7 +13,7 @@
 
 
 ## :airplane:LeetCode
-- [LeetCode 每日一题](https://github.com/zhangminxiaozhang/JavaLook/blob/master/notes/algorithm/dailyQuestion/dailyAnswer.md)
+- [LeetCode 每日一题](https://github.com/zhangminxiaozhang/JavaLook/blob/zhangmin/notes/algorithm/dailyQuestion/dailyAnswer.md)
 - [LeetCode 双周赛](https://github.com/zhangminxiaozhang/JavaLook/blob/zhangmin/notes/algorithm/weekContest/weekContest.md)
 
 ## :desktop_computer: 操作系统
